@@ -1,0 +1,11 @@
+def hotel_cost(nights, hotel):
+    if hotel == "washington":
+        return "Cost of washington:{}".format(hotel_washington * nights)
+    elif hotel == "los_angeles":
+        return "Cost of los_angeles:{}".format(hotel_los_angeles * nights)
+    elif hotel == "paris":
+        return "Cost of paris:{}".format(hotel_paris * nights)
+    elif hotel == "new_york":
+        return "Cost of new_york:{}".format(hotel_new_york * nights)
+
+print(hotel_cost(nights,hotel))
